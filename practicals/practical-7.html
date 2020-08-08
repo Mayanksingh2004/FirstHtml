@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical-7</title>
+    <style>
+        .divbox{
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;  
+            border-radius: 5px;
+            margin :15px
+        }
+        #der{
+            background-color: lightgrey;
+            height: 100px;
+        }
+        #banner{
+            height: 100vh;
+            background-color: aquamarine;
+        }
+        h2{
+            text-align: center;
+            display: block;
+        }
+        .circle{
+            height: 250px;
+            width: 250px;
+            background-color: blue;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        #left{
+            background-color: coral;
+            float: left;
+            width: 49%;
+            height: 100%;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;  
+            border-radius: 5px;
+        }
+        #right{
+            float: right;
+            width: 49%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            
+        }
+        #article{
+            width: 100%;
+            height: 31%;
+            background-color: cornflowerblue;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;  
+            border-radius: 5px;
+        }
+        #tile{
+            width: 20%;
+            height: 350px;
+            background-color: crimson;
+            float: left;
+        }
+        .box{
+            display: flex;
+            justify-content: space-between;
+            margin: 15px;
+        }
+        .container{
+            height: 90vh;
+            margin: 15px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="divbox" id="der">HEADER</div>
+    <div class="divbox" id="banner">BANNER</div>
+    <h2>SECTION-1</h2>
+    <div class="box">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+    <h2>SECTION-2</h2>
+    <div class="container">
+        <div id="left">Main Content</div>
+        <div id="right">
+            <div id="article">Article-1</div>
+            <div id="article">Article-2</div>
+            <div id="article">Article-3</div>
+        </div>
+    </div>
+    <h2>SECTION-3</h2>
+    <div class ="box">
+        <div id ="tile"></div>
+        <div id ="tile"></div>
+        <div id ="tile"></div>
+        <div id ="tile"></div>
+    </div>
+    <h2>SECTION-4</h2>
+    <div class="divbox" id="der">Footer</div>
+</body>
+</html>
