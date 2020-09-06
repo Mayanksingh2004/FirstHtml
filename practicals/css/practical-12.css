@@ -1,0 +1,83 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #F5F5F5;
+}
+.table-div{
+    width: 60%;
+    margin: 15px auto;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+.basic{
+    background-color: #5995B7;
+}
+.plus{
+    background-color: #325C74;
+}
+.deluxe{
+    background-color: #5995B7;
+}
+.pro{
+    background-color: #325C74;
+}
+caption{
+    font-size: 25px;
+    font-weight: bold;
+}
+thead{
+    font-size: 30px;
+    color: white;
+}
+thead th{
+    padding: 23px;
+}
+thead i{
+    margin-right: 10px;
+}
+tbody tr:nth-child(even){
+    background-color: #5995B7;
+}
+tbody tr:nth-child(odd){
+    background-color: #A3C4D7;
+}
+tbody tr:first-child td{
+    color: green;
+    font-size: 20px;
+}
+td{
+    width: 15%;
+    padding: 10px 5px;
+    color: white;
+}
+i{
+    margin-right: 5px;
+}
+tfoot td{
+    padding: 20px 5px;
+}
+a{
+    padding: 16px 15px;
+    text-decoration: none;
+    background-color: #11151e;
+    color: white;
+    border-radius: 15px;
+}
+tfoot{
+    padding: 25px;
+}
+a:hover{
+    background-color: white;
+    color: #11151e;
+}
+#check{
+    color: green;
+    font-size: 25px;
+}
+#times{
+    color: red;
+    font-size: 25px;
+}
