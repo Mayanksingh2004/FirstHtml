@@ -98,7 +98,7 @@ h5{
     width: 30%;
     padding: 12px 0px;
     color: white;
-    background-image: linear-gradient(to right,red,rgb(157, 157, 240));
+    background-image: linear-gradient(to right,black,blue,black);
     border-radius: 15px;
 }
 .login-2 h2{
