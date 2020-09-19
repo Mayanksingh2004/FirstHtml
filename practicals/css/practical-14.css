@@ -1,0 +1,195 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(231, 231, 231, 0.822);
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header h1{
+    margin-top: 7vh;
+    font-size: 6vw;
+    text-shadow: 5px 3px 2px rgba(0, 0, 0, 0.5);
+    color: red;
+}
+main{
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+article{
+    width: 29%;
+    height: 68vh;
+    background-color: white;
+    box-shadow: 5px 10px 10px;
+    position: relative;
+}
+.login-1 .topLogin{
+    display: flex;
+    padding-bottom: 25px;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right,red,blue,black);
+}
+.login-1 .icon{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.login-1 .topLogin h2{
+    margin: 5vh;
+    color: white;
+    margin-bottom: 5px;
+}
+.login-1 .topLogin .icon i{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+form input{
+    outline: none;
+    height: 35px;
+    margin: 15px 0;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid gray;
+}
+.login-main{
+    padding: 25px;
+}
+.login-main #forgot{
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(61, 60, 60);
+    text-decoration: none;
+    float: right;
+}
+.login-bottom{
+    margin-top: 45px;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+h5{
+    line-height: 30px;
+    display: inline-block;
+    font-size: 10px;
+    color: grey;
+}
+.login-bottom #signup{
+    font-size: 10px;
+    color: rgb(61, 60, 60);
+    font-weight: bold;
+}
+.login-bottom #login{
+    font-size: 10px;
+    width: 30%;
+    padding: 12px 0px;
+    color: white;
+    background-image: linear-gradient(to right,red,rgb(157, 157, 240));
+    border-radius: 15px;
+}
+.login-2 h2{
+    margin-top: 6vh;
+    color: rgb(240, 0, 120);
+    text-align: center;
+}
+.login-2 #term{
+    font-size: 10px;
+    color: rgb(49, 135, 233);
+}
+.login-2 .login-main #signup-2{
+    width: 40%;
+    font-size: 10px;
+    padding: 12px 0px;
+    color: white;
+    background-color:  rgb(240, 0, 120);
+    border-radius: 15px;
+}
+.login-2 .icon{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.login-2 .icon i{
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+}
+.login-3 h2{
+    margin-top: 6vh;
+    color: rgb(41, 147, 207);
+    text-align: center;
+}
+.login-3 #forgot-2{
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(28, 143, 219);
+    text-decoration: none;
+    float: right;
+}
+.login-3 #signup-3{
+    font-size: 10px;
+    width: 100%;
+    padding: 12px 35px;
+    color: white;
+    background-image: linear-gradient(to right, rgb(28, 143, 219),blue)  ;
+    border-radius: 15px;
+}
+.login-3 .icon{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.login-3{
+    text-align: center;
+}
+.login-3 .icon i{
+    box-shadow:2px 2px 2px 2px rgba(0, 0, 0, 0.219);
+    background-color: white;
+    border-radius: 17px;
+    padding: 5px 25px;
+    color:  rgb(28, 143, 219);
+    font-size: 25px;
+    margin: 10px;
+}
+@media(max-width:950px){
+    article{
+        width: 32%;
+    }
+}
+@media(max-width: 900px){
+    main{
+        margin-top: 7vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    article{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
