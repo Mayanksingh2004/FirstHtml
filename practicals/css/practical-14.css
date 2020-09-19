@@ -26,7 +26,8 @@ main{
 }
 article{
     width: 29%;
-    height: 68vh;
+    
+    max-height: fit-content;
     background-color: white;
     box-shadow: 5px 10px 10px;
     position: relative;
