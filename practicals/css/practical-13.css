@@ -1,168 +1,170 @@
-*{
-    margin: 0; padding: 0; box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-header{
-    width: 100%;
-    height: 70px;
-    background-color: grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 4vw;
+header {
+  width: 100%;
+  height: 70px;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4vw;
 }
-main{
-    width: 100%;
-    height: 90vh;
-    background-color: lightgray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 4vw;
+main {
+  width: 100%;
+  height: 90vh;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 4vw;
 }
-footer{
-    background-color: #11151e;
-    width: 100%;
+footer {
+  background-color: #11151e;
+  width: 100%;
 }
-.section-1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 15px;
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
 }
-.section-1 a{
-    width: 100%;
-    text-decoration: none;
-    color: lightgray;
+.section-1 a {
+  width: 100%;
+  text-decoration: none;
+  color: lightgray;
 }
-.section-1 a:hover{
-    color: gray;
+.section-1 a:hover {
+  color: gray;
 }
-.section-1 i{
-    font-size: 20px;
-    color: lightgray;
+.section-1 i {
+  font-size: 20px;
+  color: lightgray;
 }
-.section-1 span{
-    color: lightgray;
+.section-1 span {
+  color: lightgray;
 }
-.section-1 li{
-    list-style: none;
-    padding: 10px 0px;
+.section-1 li {
+  list-style: none;
+  padding: 10px 0px;
 }
-.section-1 h3{
-    font-size: 21px;
-    color: white;
-    margin-bottom: 10px;
+.section-1 h3 {
+  font-size: 21px;
+  color: white;
+  margin-bottom: 10px;
 }
-.section-1 .about{
-    width: 45%;
-    text-align: justify;
-    overflow: hidden;
+.section-1 .about {
+  width: 45%;
+  text-align: justify;
+  overflow: hidden;
 }
-.section-1 .about p{
-    line-height: 24px;
-    color: lightgray;
+.section-1 .about p {
+  line-height: 24px;
+  color: lightgray;
 }
-.section-2{
-    padding: 15px;
-    display: flex;
-    justify-content: center;
+.section-2 {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
 }
-.section-2 h2{
-    padding: 7px 0px;
-    color: white;
-    margin-right: 15px;
+.section-2 h2 {
+  padding: 7px 0px;
+  color: white;
+  margin-right: 15px;
 }
-.section-2 a{
-    color: white;
-    text-decoration: none;
-    padding: 10px 25px;
-    background-color: red;
-    border-radius: 10px;
+.section-2 a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 25px;
+  background-color: red;
+  border-radius: 10px;
 }
-.section-2 a:hover{
-    background-color: orange;
+.section-2 a:hover {
+  background-color: orange;
 }
-.section-3{
-    display: flex;
-    justify-content: center;
-    padding: 15px;
+.section-3 {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
 }
-.section-3 ul{
-    list-style: none;
+.section-3 ul {
+  list-style: none;
 }
-.section-3 li{
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    background-color: gray;
-    padding: 20px;
-    margin: 0 10px;
+.section-3 li {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: gray;
+  padding: 20px;
+  margin: 0 10px;
 }
-.section-3 ul li:nth-child(1):hover{
-    background-color: #3b5999;
+.section-3 ul li:nth-child(1):hover {
+  background-color: #3b5999;
 }
-.section-3 ul li:nth-child(2):hover{
-    background-color: #55acee;
+.section-3 ul li:nth-child(2):hover {
+  background-color: #55acee;
 }
-.section-3 ul li:nth-child(3):hover{
-    background-color: #dd4b39;
+.section-3 ul li:nth-child(3):hover {
+  background-color: #dd4b39;
 }
-.section-3 ul li:nth-child(4):hover{
-    background-color: #0077B5;
+.section-3 ul li:nth-child(4):hover {
+  background-color: #0077b5;
 }
-.section-3 ul li:nth-child(5):hover{
-    background-color: black;
+.section-3 ul li:nth-child(5):hover {
+  background-color: black;
 }
-.section-3 ul li i{
-    font-size: 27px;
-    color: white;
-    line-height: 20px;
-    align-items: center;
+.section-3 ul li i {
+  font-size: 27px;
+  color: white;
+  line-height: 20px;
+  align-items: center;
 }
-.section-4{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    padding: 30px;
+.section-4 {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 30px;
 }
-.section-4 p{
-    color: lightgray;
-    position: relative;
+.section-4 p {
+  color: lightgray;
+  position: relative;
 }
 .section-4 p::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    position: absolute;
-    right: 0;
-    bottom: -10px;
-    background-color: yellow;
-    transition: all 0.3s;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  position: absolute;
+  right: 0;
+  bottom: -10px;
+  background-color: yellow;
+  transition: all 0.3s;
 }
 .section-4 p:hover::after {
+  width: 100%;
+}
+hr {
+  opacity: 0.5;
+}
+@media (max-width: 1000px) {
+  .section-1 {
+    flex-wrap: wrap;
+  }
+  .section-1 .about {
     width: 100%;
+    margin-bottom: 15px;
+  }
 }
-hr{
-    opacity: 0.5;
-}
-@media(max-width:1000px){
-    .section-1{
-        flex-wrap: wrap;
-    }
-    .section-1 .about{
-        width: 100%;
-        margin-bottom: 15px;
-    }
-}
-@media(max-width:600px){
-    .section-1{
-        flex-direction: column;
-    }
-    .section-1 h3{
-        margin-top: 15px;
-    }
+@media (max-width: 600px) {
+  .section-1 {
+    flex-direction: column;
+  }
+  .section-1 h3 {
+    margin-top: 15px;
+  }
 }
