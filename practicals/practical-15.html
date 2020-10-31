@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/practical-15.css">
+    <title>Practical-15</title>
+</head>
+<body>
+    <div class="container">
+        <button class="minus">-</button>
+        <h1 class="counter">0</h1>
+        <button class="plus">+</button>
+    </div>
+    <script>
+        var i = 0;
+
+        var plus = document.querySelector(".plus");
+        var minus = document.querySelector(".minus");
+        var counter = document.querySelector(".counter");
+
+        plus.addEventListener("click",function(){
+            counter.innerHTML = ++i;
+            minus.disabled = false;
+        })
+        minus.addEventListener("click",function(){
+            if(i == 0){
+                minus.disabled = true;
+            }else{
+                counter.innerHTML = --i;
+            }
+            
+        })
+    </script>
+</body>
+</html>
