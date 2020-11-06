@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right, blueviolet 80%, white 20%);
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+h1 {
+  margin: 40px 0;
+  color: white;
+  font-size: 3rem;
+}
+.container {
+  width: 100%;
+  min-width: 100vh;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+input {
+  height: 70px;
+  width: 450px;
+  outline: none;
+  font-size: 25px;
+}
+button {
+  height: 70px;
+  outline: none;
+  font-size: 25px;
+  width: 50px;
+}
+#plus {
+  background-color: rgb(0, 149, 199);
+}
+#plus:hover {
+  background-color: blue;
+}
+i {
+  color: white;
+}
+ul {
+  list-style: none;
+}
+li {
+  flex: 1;
+}
+.todo {
+  height: 70px;
+  width: 400px;
+  background-color: white;
+  font-size: 30px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+}
+.delete-btn {
+  background-color: red;
+}
+.check-btn {
+  background-color: green;
+}
+.check-btn:hover,
+.delete-btn:hover {
+  opacity: 0.8;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.fa-check,
+.fa-trash {
+  pointer-events: none;
+}
