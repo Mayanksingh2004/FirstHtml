@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  flex-direction: column;
+  color: white;
+  height: 100vh;
+  background-image: url(../imgsrc/circle1.png);
+}
+time {
+  font-size: 8rem;
+}
+#greeting {
+  margin: 10px;
+  font-size: 25px;
+}
+#name {
+  margin: 20px;
+  font-size: 2rem;
+  opacity: 0.7;
+}
