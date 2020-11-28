@@ -17,6 +17,8 @@ function checkInput(){
     const password2Value = password2.value.trim();
     if(usernameValue === ""){
         showMessage(username,"Username cannot be blank");
+    }else if(!isValidName(usernameValue)){
+        showMessage(username,"Username must only contain a-z alphabets");
     }else{
         showSuccess(username);
     }
@@ -55,4 +57,7 @@ function showSuccess(input){
 }
 function isValidEmail(emailValue){
     return /^([a-zA-Z0-9_\.\-]+)@([a-zA-Z0-9]+)\.([a-zA-Z]{2,3})$/.test(emailValue);
+}
+function isValidName(usernameValue){
+    return /^([a-z]+)$/.test(usernameValue)
 }
